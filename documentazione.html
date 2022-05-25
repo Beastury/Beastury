@@ -1,0 +1,384 @@
+<!doctype html>
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5c257ac89b.js" crossorigin="anonymous"></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+<link rel="preload" href="DirtyEgo.woff2" as="font" type="font/woff2" crossorigin>
+
+
+     <!--java--> 
+     <script type="text/javascript"> document.addEventListener("DOMContentLoaded", function(){ 
+  window.addEventListener('scroll', function() {
+      if (window.scrollY > 50) {
+        document.getElementById('navbar').classList.add('fixed-top');
+        // add padding top to show content behind navbar
+        navbar_height = document.querySelector('#navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.getElementById('navbar').classList.remove('fixed-top');
+         // remove padding top from body
+        document.body.style.paddingTop = '0';
+      } 
+  });
+}); 
+function a(){
+  window.scrollTo(0,0);
+}
+</script> <!--java-->
+
+      <title>Beastury</title>
+      <!-- qui sotto 3 link del font preso da google font-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet"> 
+  </head>
+
+<body style="background-color: white">
+
+      <header>
+
+
+  <!--menu-->
+        
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-dark" style="background-color: white;">
+
+               <a class="navbar-brand d-lg-none" href="index.html"><img src="images/logoperdoc.png"></a> <!--logo pagina piccola-->
+                 
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                      <ul class="navbar-nav mx-auto"> 
+                        <a class="d-none d-lg-block" class="nav-item" href="index.html"><img src="images/logoperdoc.png" style="display: block; margin-left: auto; margin-right: auto; margin-top: -110px; width: 350px; margin-bottom: -110px;"></a>
+                      </ul>
+                    </div>
+            </nav>
+
+<style> /*css logo*/
+
+
+
+</style>
+
+
+<div class="documentazione"> <!-- inizio DOCUMENTAZIONE-->
+  <h1>
+    Abstract
+  </h1>
+  <p>
+    Il sito nasce con l’intento di promuovere l’emergente band thrash/death metal “Beastury” rivolgendosi principalmente agli appassionati del genere e ad eventuali enti dell’industria musicale. Il design intuitivo rende la pagina web semplice da navigare e fornisce all’utente una visione d'insieme sulla band e sui singoli membri, cercando allo stesso tempo di suggerirgli la tipologia di prodotto musicale e l’energia esplosiva che vuole trasmettere.
+  </p>
+  <br>
+  <br>
+  <h2>
+    Project Manajement Plan
+  </h2>
+    <h3>
+     1. Benchmarking
+    </h3>
+    <h4>
+      1.1 Obiettivi
+    </h4>
+    <p>
+      Questo sito web è stato realizzato al fine di promuovere l’emergente band thrash/death metal “Beastury”.
+    </p>
+    <h5>
+      1.2 Target utente
+    </h5>
+    <p>
+      Il target principale fa riferimento agli appassionati del death/thrash metal e generi affini.
+    </p>
+    <h6>
+      1.3 Competitors
+    </h6>
+    <p>
+      Il primo competitor scelto è il gruppo musicale <a href="http://elyneofficial.com/" target="_blank"><b>“Elyne”</b></a>, una band italiana fondata nel 2013 e composta da 4 membri. Il genere delle loro canzoni è affine a quello dei “Beastury” e operano nello stesso territorio provinciale. Il sito si concentra molto sul merchandising della band e la sponsorizzazione delle loro canzoni in un template grafico semplice e intuitivo. 
+      <br>
+      <br>
+      Il secondo competitor preso in considerazione è il gruppo celtic metal <a href="https://www.furorgallico.it/ " target="_blank"><b>“Furor Gallico”</b></a>, anch’esso di genere musicale affine e di un target ampio. Al contrario del competitor precedente, il template è principalmente “one page”,  e le sezioni più commerciali e quelle di presentazione della band sono bilanciate.
+    </p>
+    <br>
+    <p>
+    L’unità di misura scelta per valutare i parametri (temi, servizi e usabilità) in relazione ai nostri competitors è il grado di soddisfazione sulla base di una scala Linkert da 1 a 5, dove 5 corrisponde a “molto soddisfacente” e 1 a “ per nulla soddisfacente”.
+  </p>
+  <div class="container">
+    <img src="images/tabellasito.png" class="img-fluid" style="width: 700px;">
+ </div>
+ <br>
+ <h3>
+  2. Struttura e layout
+ </h3>
+ <h4>
+   2.1 Architettura del sito
+ </h4>
+ <div class="container">
+   <img src="images/architetturasito.png" class="img-fluid" style="width: 500px; height: 300px;">
+ </div>
+ <p style="padding-top: 10px">
+  (1): rappresentazione grafica ad albero delle pagine del sito
+ </p>
+ <h4>
+   2.2 Wireframe
+ </h4>
+ <div class="container">
+   <img src="images/wireframegenerale.jpeg" class="img-fluid" style="width: 250px; height: 700px;">
+ </div>
+ <p style="padding-top: 10px">
+ (2): rappresentazione grafica del wireframe dell’Hompeage contente anche le altre sezioni. È stato utilizzato un template “one page” ad eccezione della pagina “Bio” e “Documentazione” per poter concentrare al meglio le informazioni.
+</p>
+<div class="row">
+  <div class="column">
+    <img  class="img-fluid" src="images/wireframehomepage.jpg" style="width: 300px; height: 220px;">
+    <p style="padding-top: 10px;"> (3): wireframe navbar e immagine di copertina
+  </div>
+  <div class="column">
+    <img class="img-fluid" src="images/wireframeband.jpg" style="width: 400px; height: 250px;">
+    <p style="padding-top: 10px"> (4): wireframe sezione "Band"
+  </div>
+   <div class="w-100"></div>
+  <div class="column">
+    <img class="img-fluid" src="images/wireframegallery.jpg" style="width: 380px; height: 300px;">
+    <p style= "padding-top: 10px"> (5): wireframe sezione "Gallery"
+  </div>
+  <div class="column">
+    <img  class="img-fluid" src="images/wireframeeventi.jpg" style="width: 400px; height: 200px;">
+    <p style="padding-top: 10px">(6): wireframe sezione "Eventi"</p>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img class= "img-fluid" src="images/wireframeascoltaci.jpg" style="width: 400px; height: 250px;">
+    <p style="padding-top: 10px">(7): wireframe sezione "Ascoltaci"</p>
+  </div>
+  <div class="column">
+    <img class= "img-fluid" src="images/wireframemerch.jpg" style="width: 400px; height: 250px;">
+    <p style="padding-top: 10px">
+      (8): wireframe sezione "Merch"
+    </p>
+  </div>
+  <div class="column">
+    <img class= "img-fluid" src="images/wireframefooter.jpg" style="width: 450px; height: 250px;">
+    <p style="padding-top: 10px">
+      (8): wireframe footer
+    </p>
+  </div>
+  <div class="column">
+    <img class= "img-fluid" src="images/wireframebiopage.png" style="width: 350px; height: 400px;">
+    <p style="padding-top: 10px">
+      (8): wireframe pagina "Bio"
+    </p>
+  </div>
+</div>
+<h4>
+ 2.3 Look and feel
+</h4>
+<h4>
+  Colori
+</h4>
+<div class="container">
+  <img class="img-fluid"src="images/palettesito.png" style="width:500px; height:300px">
+</div>
+<p>
+  <ul>
+  <li><b>Colore 1: bianco </b>→ utilizzato per il colore delle voci del menu, per la sezione "Eventi", per evidenziare il passaggio del cursore sulle icone social del footer, per il copyright e lo sfondo della documentazione;</li>
+  <li><b>Colore 2: nero </b>→ utilizzato per la navbar, per la scritta “coming soon”, per lo sfondo del footer, per il corpo del testo della documentazione e per i titoli principali;</li>
+  <li><b>Colore 3: #800000 </b>→ usato per lo sfondo della sezione “gallery”, lo sfondo della scritta “coming soon”, per evidenziare il passaggio del cursore sulle voci della navbar, per i titoli secondari della documentazione ed i link;</li>
+  <li>
+    <b>colore 4: #808080 </b>→ usato per evidenziare il passaggio del cursore sulla scritta “coming soon”;
+  </li>
+  <li>
+    <b>colore 5: #696969</b> → usato per le icone del footer.
+  </li>
+</ul>
+  </p>
+  <h4>
+    Font
+  </h4>
+  <p style="margin-top: -8px;">
+    <ul>
+      <li><b>Oswald, sans serif: </b> utilizzato per le voci della navabar;</li>
+       <li><b>Dirty Ego, sans serif: </b>usato per i titoli delle sezioni e i titoli principali della documentazione;</li>
+        <li><b>Exo 2, sans serif: </b>usato per i nomi dei componenti della band nelle “cards” della sezione "Band", per il testo nelle pagine “Bio” e “Documentazione”;</li>
+         <li><b>Bebas Neue, cursive: </b>usato per la scritta “coming soon”;</li>
+          <li><b>New Rocker, cursive: </b>usato per la scritta “About Beastury” nella pagina “Bio”;</li>
+           <li><b>“Smackdead Black Metal Typeface"</b> per il logo.</li>
+    </ul>
+  </p>
+  <h4>
+    Immagini
+  </h4>
+  <p>
+    Le immagini della “Gallery”, della copertina e delle locandine presenti nella sezione “Bio”, sono state procurate direttamente dai componenti della band. Il logo è stato realizzato  con il font “Smackdead Black Metal Typeface”; è stato scelto questo font  perché rispecchia appieno l’identità che vuole trasmettere il gruppo con il suo genere thrash/death metal. Non sono state apportate modifiche se non adattare il colore allo sfondo nero, optando quindi per il bianco per farlo risaltare al meglio.
+Per quanto riguarda l’immagine di background per le sezioni della Homepage è stata presa da Google immagini nelle licenze Creative Commons per intensificare l’effetto cupo che vuole dare il sito.
+  </p>
+  <h3>3. Linguaggi e strumenti</h3>
+  <h4>Linguaggi</h4>
+  <p>
+    Html, Css, Javascript
+  </p>
+  <h4>Strumenti</h4>
+  <p style="margin-top: 8px;">
+    <ul>
+      <li><a href="https://balsamiq.com/" target="_blank"><b>Balsamiq</b></a> per la realizzazione del wireframe e dell’architettura del sito;</li>
+       <li><a href="https://www.cursors-4u.com/ " target="_blank"><b>cursors-4u.com</b></a> per il cursore;</li>
+        <li>Widget del sito <a href="https://artists.bandsintown.com/support/events-widget " target="_blank"><b>Bandsintown</b></a> per la sezione “Eventi”;</li>
+         <li><a href="https://fontawesome.com/ " target="_blank"><b>Fontawesome</b></a> per le icone social;</li>
+          <li><a href=" https://www.dafont.com/it/ " target="_blank"><b>dafont.com</b></a> per il font “Dirty Ego”;</li>
+           <li><a href="https://codepen.io/ " target="_blank"><b>Codepen</b></a> per il template della gallery, delle “profile cards", e il bottone della documentazione;</li>
+            <li><a href="https://fonts.google.com/ " target="_blank"><b>Google fonts</b></a> per i font Oswald, Exo 2, Bebas Neue, New Rocker;</li>
+             <li><a href="https://getbootstrap.com/" target="_blank"><b>Bootstrap</b></a> come framework in particolare  per il template della navbar a cui abbiamo apportato alcune modifiche; </li>
+              <li><a href="https://www.w3schools.com/" target="_blank"><b>w3schools</b></a> per alcuni tutorial, in particolare per l’effetto “parallax scrolling effect”, “sticky navbar”;</li>
+               <li><b>Google analytics</b> e <b>Instagram</b> per la rilevazione dei dati;</b></li>
+                <li><b>Sublime text4</b> come text editor;</li>
+                 <li><a href="https://coolors.com/" target="_blank"><b>Coolors</b></a> per la realizzazione della palette di colori;</li>
+                  <li>Canali social per la promozione del sito <b>(Instagram, Facebook, Whatsapp);</b></li>
+                   <li><a href="https://github.com/ " target="_blank"><b>GitHub</b></a> per la pubblicazione del sito.</li>
+    </ul>
+  </p>
+  <h1 style="margin-top: 60px;">
+    Communication Strategy
+  </h1>
+  <h4>
+    1. Background
+  </h4>
+  <p>
+  I competitors presi in considerazione sono due siti di due band italiane e di genere affine al thrash/death metal dei “Beastury”.
+Nel complesso il primo sito, quello degli <a href="http://elyneofficial.com/" target="_blank"><b>"Elyne"</b></a>, è facile da usare e intuitivo, i servizi che offre sono completi ed efficienti ma la scelta di concentrarlo principalmente sull’aspetto commerciale lo rende più indicato per gli utenti del target primario, ovvero le persone che già conoscono la band e che vogliono acquistare prodotti ufficiali quali magliette o CD. D’altro canto, non viene considerato un potenziale target secondario che potrebbe voler visitare il sito semplicemente per avere informazioni sulla band. Le uniche informazioni fornite sono presenti solo nella bio della pagina Facebook.
+Al contrario, il sito dei “Beastury” vuole offrire una pagina web in cui vengono fornite tutte le informazioni in maniera completa. 
+<br>
+<br>
+Il secondo sito preso in considerazione è quello dei <a href="https://www.furorgallico.it/" target="_blank"><b>"Furor Gallico"</b></a>. L’impatto visivo è importante ma tutti gli effetti speciali possono confondere e rendere difficile la navigazione. Il sito sviluppato su una sola pagina mette efficacemente in primo piano i contenuti, in particolare per quanto riguarda la sezione dedicata ai profili dei membri della band di cui si è presa ispirazione. Tuttavia, anche qui, come per gli Elyne, manca un background generale della band.
+  </p>
+  <h4>
+    2. Obiettivi comunicativi
+  </h4>
+  <p>
+    L’obiettivo del sito è quello di promuovere la band death/thrash metal emergente “Beastury” fornendo una presentazione completa di essa, anche in supporto ai profili social media già esistenti, quali Facebook, Instagram e YouTube, ma ancora non aggiornati periodicamente.
+  </p>
+  <h4>
+    3. Target audience e messaggio
+  </h4>
+  <p>
+    Il sito è rivolto principalmente ad un target di appassionati del thrash/death metal e generi affini ed in particolare ai fruitori del territorio italiano con un’ampia gamma di età che viene raggiunta, per questo motivo, attraverso diversi canali di comunicazione (dagli eventi della band fino ai social). 
+Inoltre, il sito mira a raggiungere anche eventuali soggetti dell'industria musicale e persone interessate a promuovere la band. Si cerca anche di tenere in considerazione il fruitore occasionale concentrando la maggior parte delle informazioni su un'unica pagina.
+</p>
+<h4>
+4. Promozione
+</h4>
+<p>
+La promozione del sito avviene tramite le principali piattaforme social <b>(Whatsapp, Instagram e Facebook)</b>.
+  </p>
+  <h4>
+   5. Valutazione
+  </h4>
+  <p>
+    <b>Obiettivi prefissati:</b>
+    <br>
+    50 visite al sito da profili unici:
+    <div class="row">
+      <div class="column">
+        <img class="img-fluid" src="images/googleanalytics.png">
+      </div>
+    </div>
+    <br>
+    20 like sul post di Instagram in cui è presentato il sito:
+     <br>
+  </p>
+  <div class="row">
+  <div class="column">
+    <img  class="img-fluid" src="images/screenig1.jpg" style="width: 250px; height: 400px;">
+  </div>
+  <div class="column">
+    <img class="img-fluid" src="images/screenig2.jpg" style="width: 250px; height: 400px;">
+  </div>
+  <div class="column">
+    <img class="img-fluid" src="images/screenig3.jpg" style="width: 250px; height: 400px;">
+  </div>
+</div>
+
+
+<style>
+  h1, h2{font-family: 'Dirty Ego'; sans-serif;
+    font-size: 50px;
+  }
+
+    .documentazione {margin-left: 20px;
+      text-align: left;
+    padding-top: 0px;
+   
+    margin-left: 30px;
+    margin-right: 40px;
+    }
+
+    h3 {
+      font-family: 'Exo 2', sans-serif; 
+    font-size: 30px;
+    font-weight: bolder;
+    color: #800000;
+    }
+
+
+
+    h4, h5, h6 {color: #800000;
+   font-family: 'Exo 2', sans-serif; 
+   font-size: 20px; 
+   font-weight: bolder;}
+
+    p, ul {font-family: 'Exo 2', sans-serif; 
+      font-weight:  lighter;
+      text-align: justify;
+      display: block;
+      font-size: 20px;
+      line-height: 1.4;
+  }
+
+  a {text-decoration: none;
+    color: #800000;
+  }
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 35%;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 55%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+</style>
+
+     
+     </body>
+  </html>
